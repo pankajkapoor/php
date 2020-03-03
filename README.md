@@ -67,3 +67,8 @@ echo $multiply(10);
 $numbers = [1,2,3];
 $squares = array_map(fn($num) => $num*$num,$numbers);
 print_r($squares);
+```
+# Null coalescing assignment operator
+```php
+$_GET['name'] ??= 'Friend';
+```
