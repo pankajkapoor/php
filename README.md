@@ -23,7 +23,7 @@ Spread operator should have a better performance than array_merge. It's because 
 
 ```php
 function greys() {
-	return ['light grey','dark_grey','grey'];
+   return ['light grey','dark_grey','grey'];
 }
 
 function hex_colors(){
@@ -49,7 +49,7 @@ a return statement
 
 ```php
 $square = function($num){
-	return $num*$num;
+    return $num*$num;
 };
 
 $square = fn($num) => $num * $num;
@@ -57,7 +57,7 @@ echo $square(10);
 
 $factor = 10;
 $multiply = function($num) use($factor){
-	return $num * $factor;
+    return $num * $factor;
 };
 
 $multiply = fn($num) =>  $num * $factor;
